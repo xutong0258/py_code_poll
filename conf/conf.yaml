@@ -1,0 +1,34 @@
+# TEST_SERVER: '192.168.2.17'
+
+#WEB_IP: http://192.168.2.17
+WEB_IP: f"http://{TEST_SERVER}"
+
+BOOT_STRAP_SERVER: f"{TEST_SERVER}:9192"
+NOTIFY_TOPIC: "se_notify"
+REAL_TIME_TOPIC: "real_time_notify"
+VOICE_TOPIC: "se_voice"
+SE_TASK: "se_task"
+
+# push video part
+# rtsp_url: "rtsp://192.168.2.17:8554/live"
+rtsp_url: "rtsp://192.168.2.235:8554/live"
+
+# 15757160859
+# Chris0859
+login_data:
+  "loginName": "13655557903"
+  "password": "stone0705"
+  # "loginName": "15757160859"
+  # "password": "Chris0859"
+
+we_xin_cfg:
+  host: "http://192.168.2.233"
+
+mysql:
+  host: f"{TEST_SERVER}"
+  user: "se"
+  password: "yskj@2022"
+  port: "3406"
+  db: "se"
+
+

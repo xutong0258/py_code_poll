@@ -1,0 +1,9 @@
+TEST_SERVER: '17'
+TEST_MODE: 'UNIT_TEST'
+# TEST_MODE: 'STRESS_TEST'
+KEEP_LAST: True
+
+'201':
+    dingding_url: https://oapi.dingtalk.com/robot/send?access_token=a5fe23894d1840aa3323d787f0212fa10f2e37b6236bc00dc83c841201eaf62e
+'202':
+    dingding_url: https://oapi.dingtalk.com/robot/send?access_token=72bedd5c58d83dc4ebd90481a8b178a7bdd043ed0222fbc7490d79c74a032295
